@@ -3,7 +3,7 @@ import styles from "./styles.module.scss";
 
 function Hero()  {
     return  (
-                <section className={styles.section}>
+                <section className={styles.section} id="hero">
                     <div className={styles.callingDiv}>
                         <p className={styles.experience}>
                             <strong>A Sua Melhor Experiência</strong> 
@@ -20,11 +20,18 @@ function Hero()  {
                                 height="50%"
                                 width="15%"
                             />
-                            <span className={styles.watch}>
+                            <a className={styles.watch} href="">
                                 <img src="../src/assets/images/resources/Play.svg" alt="" />
                                 <p>Assistir video</p>
-                            </span>
+                            </a>
                         </div>
+                    </div>
+                    <div className={styles.countdown}>
+                        <h1>
+                            <strong id="countdownStamp">
+                                5d 2h 26m 12s
+                            </strong>
+                        </h1>
                     </div>
                 </section>
     )

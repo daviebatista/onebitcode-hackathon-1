@@ -23,3 +23,26 @@
 .logoOneBit {
     width: 17%;
 }
+
+#buyTicket  {
+    background-color: $light;
+    border-radius: 6px;
+    color: $dark;
+    padding: 0px 24px;
+
+    a   {
+        color: $dark;
+        font-weight: bold;
+        font-size: 65%;
+        margin-top: 4px;
+    }
+
+    transition: 0.3s;
+    &:hover {
+        background-color: $gR;
+
+        a   {
+            color: $light;
+        }
+    }
+}
