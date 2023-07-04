@@ -1,0 +1,25 @@
+@import '../../../src/styles/colors.scss';
+@import '../../../src/styles/fonts.scss';
+
+.navigation {
+    background-color: transparent;
+    padding: 3% 19.53125% 3% 19.6875%;
+    height: 12.448132780083%;
+}
+
+.onebit {
+    color: $light;
+    font-size: 80%;
+    font-family: $m;
+}
+
+.music  {
+    color: $gR;
+    font-size: 80%;
+    font-family: $m;
+
+}
+
+.logoOneBit {
+    width: 17%;
+}

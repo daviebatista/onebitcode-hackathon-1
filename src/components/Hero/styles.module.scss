@@ -1,0 +1,68 @@
+@import '../../../src/styles/colors.scss';
+@import '../../../src/styles/fonts.scss';
+
+.section    {
+    background-image: url('../../assets/images/introduction-background.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding: 9.34% 24.73% 32.46% 24.73%;
+}
+
+.callingDiv   {
+    display: flex;
+    flex-direction: column;
+    font-size: 300%;
+    font-weight: 700;
+    text-align: center;
+}
+
+.experience {
+    color: $light;
+    display: flex;
+    flex-direction: column;
+    font-family: $m;
+}
+
+.redText    {
+    color: $gR;
+}
+
+.callingText    {
+    color: $light;
+    font-size: 35%;
+    font-family: $m;
+    font-weight: 400;
+    line-height: 30px;
+    width: 106%;
+}
+
+.options    {
+    align-items: center;
+    color: $light;
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+    gap: 5%;
+    justify-content: center;
+    margin-left: 15px;
+    margin-top: -10px;
+    width: 100%;
+}
+
+.watch  {
+    align-items: center;
+    display: flex;
+    height: 80px;
+    justify-content: center;
+
+    img {
+        height: 50%;
+    }
+    p   {
+        margin-top: 14px;
+        width: 150px;
+    }
+}
