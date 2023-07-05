@@ -8,7 +8,7 @@ function About ()  {
                     </div>
                     <div className={styles.description}>
                         <h1>Sobre a gente</h1>
-                        <p>Na onebitmusic, estamos redefinindo a maneira como experimentamos e nos envolvemos com a música, utilizando tecnologia de realidade virtual (VR) para criar shows e performances que transcendem os limites físicos e levam <br/> você a novos patamares de entretenimento musical.</p>
+                        <p>Na onebitmusic, estamos redefinindo a maneira como experimentamos e nos envolvemos com a música, utilizando tecnologia de realidade virtual (VR) para criar shows e performances que transcendem os limites físicos e levam você a novos patamares de entretenimento musical.</p>
                         <a href="" className={styles.button}>
                             <p>Ler mais</p>
                             <img src="./src/assets/images/resources/arrow.svg" alt="" />

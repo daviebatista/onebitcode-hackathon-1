@@ -1,5 +1,4 @@
-@import '../../../src/styles/colors.scss';
-@import '../../../src/styles/fonts.scss';
+@import '../../../src/styles/globals.scss';
 
 .section    {
     align-items: center;
@@ -15,53 +14,29 @@
     color: $light;
     display: flex;
     flex-direction: column;
-    width: 43%;
+    width: 42%;
 
     h1  {
-        font-family: $m;
-        font-size: 150%;
-        font-weight: 800;
+        @include titles;
     }
 
     p   {
-        color: $i;
-        font-family: $r;
-        font-size: 70%;
-        font-weight: 100;
-        margin-top: 4%;
-        width: 94%;
+        @include texts;
+        width: 95%;
     }
 }
 
 .button {
-    align-items: center;
-    background-color: $light;
-    border-radius: 6px;
-    color: $dark;
-    display: flex;
-    flex-direction: row;
-    gap: 5px;
-    height: 46px;
-    margin-top: 10%;
+    @include buttons;
     padding: -0px 8%;
-    text-decoration: none;
     width: 60%;
 
-    p   {
-        color: $dark;
-        font-size: 70%;
-        font-family: $m;
-        text-align: center;
-        margin-top: 15px;
-    }
+    
     img {
-        transition: 0.3s;
         width: 7%;
     }
 
-    transition: 0.3s;
     &:hover {
-        background-color: $gR;
         width: 94%;
 
         img {
@@ -80,12 +55,16 @@
     img {
         margin-bottom: -4%;
         width: 40.298507462687%;
+        -webkit-box-reflect: below -62% linear-gradient(to bottom, transparent 50%, $g);
+
     }
     :nth-child(-3n+4)  {
         width: 55.223880597015%;
+        -webkit-box-reflect: below -30% linear-gradient(to bottom, transparent 70%, $g);
     }
     :nth-child(2n-2)    {
         padding-bottom: 12%;
+        -webkit-box-reflect: below -62% linear-gradient(to bottom, transparent 50%, $g);
     }
 
 }

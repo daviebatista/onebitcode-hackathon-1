@@ -59,4 +59,48 @@
     border-radius: 25px;
     transition: 0.3s;
 }
-/*--------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------<MIXINS FOR THE APPLICATION:-----------------------------------------------------------------------------------*/
+@mixin titles   {
+    color: $light;
+    font-family: $m;
+    font-size: 150%;
+    font-weight: 800;
+}
+
+@mixin texts    {
+    color: $i;
+    font-family: $r;
+    font-size: 70%;
+    font-weight: 400;
+    margin-top: 4%;
+}
+
+@mixin buttons  {
+    align-items: center;
+    background-color: $light;
+    border-radius: 6px;
+    color: $dark;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    height: 46px;
+    margin-top: 10%;
+    text-decoration: none;
+    transition: 0.3s;
+
+    p   {
+        color: $dark;
+        font-size: 70%;
+        font-family: $m;
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    img {
+        transition: 0.3s;
+    }
+
+    &:hover {
+        background-color: $gR;
+    }
+}

@@ -1,0 +1,14 @@
+@import '../../../src/styles/globals.scss';
+
+.section    {
+    background-color: $g;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-height: 100vh;
+    padding: 5.34% 19.53125%;
+
+    h1  {
+        @include titles;
+    }
+}
