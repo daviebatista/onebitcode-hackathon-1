@@ -1,0 +1,91 @@
+@import '../../../src/styles/colors.scss';
+@import '../../../src/styles/fonts.scss';
+
+.section    {
+    align-items: center;
+    background: $g;
+    display: flex;
+    flex-direction: row;
+    gap: 1%;
+    min-height: 80vh;
+    padding: 5.34% 19.53125%;
+}
+
+.informations   {
+    color: $light;
+    display: flex;
+    flex-direction: column;
+    width: 43%;
+
+    h1  {
+        font-family: $m;
+        font-size: 150%;
+        font-weight: 800;
+    }
+
+    p   {
+        color: $i;
+        font-family: $r;
+        font-size: 70%;
+        font-weight: 100;
+        margin-top: 4%;
+        width: 94%;
+    }
+}
+
+.button {
+    align-items: center;
+    background-color: $light;
+    border-radius: 6px;
+    color: $dark;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    height: 46px;
+    margin-top: 10%;
+    padding: -0px 8%;
+    text-decoration: none;
+    width: 60%;
+
+    p   {
+        color: $dark;
+        font-size: 70%;
+        font-family: $m;
+        text-align: center;
+        margin-top: 15px;
+    }
+    img {
+        transition: 0.3s;
+        width: 7%;
+    }
+
+    transition: 0.3s;
+    &:hover {
+        background-color: $gR;
+        width: 94%;
+
+        img {
+            width: 5%;
+        }
+    }
+}
+
+.singerImages   {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 4%;
+    width: 57%;
+
+    img {
+        margin-bottom: -4%;
+        width: 40.298507462687%;
+    }
+    :nth-child(-3n+4)  {
+        width: 55.223880597015%;
+    }
+    :nth-child(2n-2)    {
+        padding-bottom: 12%;
+    }
+
+}

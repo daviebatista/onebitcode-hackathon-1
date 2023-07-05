@@ -62,14 +62,20 @@
         font-size: 70%;
         font-family: $m;
         text-align: center;
-        margin-top: 15%;
+        margin-top: 15px;
     }
     img {
+        transition: 0.3s;
         width: 12%;
     }
 
     transition: 0.3s;
     &:hover {
         background-color: $gR;
+        width: 66%;
+
+        img {
+            width: 8%;
+        }
     }
 }
