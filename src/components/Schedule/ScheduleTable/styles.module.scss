@@ -1,0 +1,26 @@
+@import '../../../styles/globals.scss';
+
+.section    {
+    border: 1.5px solid $i;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+}
+
+.scheduleHeader {
+    align-items: start;
+    background-color: $dG;
+    display: flex;
+    flex-direction: row;
+    font-family: $r;
+    font-size: 70%;
+    gap: 5%;
+    padding: 4% 3%;
+
+    h1  {
+        width: 19.65811965812%;
+    }
+    :nth-child(2)  {
+        width: 31.623931623932%;
+    }
+}

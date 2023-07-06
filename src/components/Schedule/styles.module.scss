@@ -4,11 +4,36 @@
     background-color: $g;
     display: flex;
     flex-direction: column;
+    gap: 10%;
     justify-content: flex-start;
     min-height: 100vh;
-    padding: 5.34% 19.53125%;
+    @include spacing;
 
     h1  {
         @include titles;
     }
 }
+
+.daysDiv   {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.days   {
+    border-bottom: 4px solid $dark;
+    opacity: 0.5;
+    width: 55.223880597015%;
+
+    h1  {
+        color: $i;
+        font-size: 100%;
+        font-weight: bold;
+    }
+
+    p   {
+        font-family: $m;
+        font-size: 80%;
+    }
+}
+
