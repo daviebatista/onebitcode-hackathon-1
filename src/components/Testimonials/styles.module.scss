@@ -1,0 +1,10 @@
+@import '../../styles/globals.scss';
+
+.section    {
+    margin: 7% 0%;
+    h1  {
+        @include titles;
+        margin-bottom: 3%;
+        text-align: center;
+    }
+}

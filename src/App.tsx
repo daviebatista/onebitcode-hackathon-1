@@ -6,6 +6,7 @@ import Hero from "./components/Hero/Hero"
 import Schedule from "./components/Schedule/Schedule"
 import Singers from "./components/Singers/Singers"
 import Sponsors from "./components/Sponsors/Sponsors"
+import Testimonials from "./components/Testimonials/Testimonials"
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <Singers/>
       <Schedule/>
       <Sponsors/>
+      <Testimonials/>
       <Gallery/>
       <Footer/>
     </>
