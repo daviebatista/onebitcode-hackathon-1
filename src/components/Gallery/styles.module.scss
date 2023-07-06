@@ -1,0 +1,12 @@
+@import '../../styles/globals.scss';
+
+.section    {
+    background-color: $g;
+    min-height: 100vh;
+
+    h1  {
+        margin-bottom: -2%;
+        @include titles;
+        @include spacing;
+    }
+}

@@ -1,0 +1,50 @@
+@import '../../../styles/globals.scss';
+
+.slide  {
+    display: flex;
+    flex-direction: column;
+
+
+    img {
+        object-fit: scale-down;
+        width: 100%;
+    }
+}
+
+.informations   {
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+}
+
+.icons  {
+    height: 30%;
+    width: 30%;
+}
+
+.features   {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+
+    p   {
+        color: $i;
+        font-family: $m;
+        font-size: 80%;
+        margin-top: 30%;
+    }
+}
+
+.title  {
+    color: $i;
+    font-family: $r;
+    font-size: 70%;
+}
+
+.description    {
+    color: $i;
+    font-family: $r;
+    font-size: 70%;
+}

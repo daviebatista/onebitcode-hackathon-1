@@ -1,4 +1,5 @@
 import About from "./components/About/About"
+import Gallery from "./components/Gallery/Gallery"
 import Header from "./components/Header/Header"
 import Hero from "./components/Hero/Hero"
 import Schedule from "./components/Schedule/Schedule"
@@ -16,6 +17,7 @@ function App() {
       <Singers/>
       <Schedule/>
       <Sponsors/>
+      <Gallery/>
     </>
   )
 }
