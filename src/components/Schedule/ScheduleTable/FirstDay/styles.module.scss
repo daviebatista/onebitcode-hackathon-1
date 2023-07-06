@@ -1,0 +1,101 @@
+@import '../../../../styles/globals.scss';
+
+.section    {
+    display: flex;
+    flex-direction: column;
+}
+
+.time   {
+    font-family: $r;
+    font-size: 70%;
+}
+
+.shows  {
+    color: $i;
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+    padding: 3%;
+}
+
+.activeShow {
+    border-bottom: 2px solid rgba(255, 255, 255, 0.256);
+}
+
+.ongoingShow    {
+    color: $gR;
+}
+
+.content    {
+    font-family: $r;
+    font-size: 70%;
+    font-weight: bold;
+    width: 32%;
+}
+
+.avatars    {
+    width: 40px;
+}
+
+.artistsDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: -5%;
+    margin-top: -1%;
+    width: 20%;
+}
+
+.artists    {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+}
+
+.artistCard {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15%;
+}
+
+.artistName {
+    font-family: $r;
+    font-size: 70%;
+    font-weight: bold;
+    margin-bottom: -5%;
+    width: 120%;
+}
+
+.booth  {
+    display: flex;
+
+    p   {
+        font-size: 70%;
+        font-weight: 100;
+    }
+
+    strong  {
+        color: $i;
+        font-size: 70%;
+    }
+}
+
+.verify {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    justify-content: end;
+    width: 10%;
+
+    p   {
+        font-size: 70%;
+        font-weight: bold;
+        margin-top: 15px;
+    }
+
+    img {
+        width: 15px;
+    }
+}

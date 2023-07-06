@@ -1,7 +1,9 @@
 @import '../../styles/globals.scss';
 
 .section    {
-    background-color: $g;
+    background: rgb(92,92,92);
+    background: linear-gradient(0deg, rgba(92,92,92,1) 36%, rgba(246,67,72,0.0760679271708683) 100%);
+
     min-height: 100vh;
 
     h1  {

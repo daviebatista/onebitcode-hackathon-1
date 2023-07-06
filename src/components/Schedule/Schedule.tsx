@@ -1,3 +1,4 @@
+import FirstDay from "./ScheduleTable/FirstDay/FirstDay";
 import ScheduleTable from "./ScheduleTable/ScheduleTable";
 import styles from "./styles.module.scss";
 
@@ -20,7 +21,9 @@ function Schedule()  {
                         </div>
                     </div>
                     <div>
-                        <ScheduleTable/>
+                        <ScheduleTable>
+                            <FirstDay/>
+                        </ScheduleTable>
                     </div>
                 </section>
     )

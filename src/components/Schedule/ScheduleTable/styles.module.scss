@@ -1,8 +1,8 @@
 @import '../../../styles/globals.scss';
 
 .section    {
-    border: 1.5px solid $i;
-    border-radius: 6px;
+    border: 1px solid rgba(255, 255, 255, 0.256);
+    border-radius: 15px;
     display: flex;
     flex-direction: column;
 }
@@ -15,7 +15,7 @@
     font-family: $r;
     font-size: 70%;
     gap: 5%;
-    padding: 4% 3%;
+    padding: 0% 3%;
 
     h1  {
         width: 19.65811965812%;

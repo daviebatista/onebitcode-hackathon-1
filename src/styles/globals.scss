@@ -5,6 +5,10 @@
 @import './colors.scss';
 @import './fonts.scss';
 /*----------------------------------------------------------<STYLES FOR THE NAVBAR>--------------------------------------------------------------------------------------------------------------------------------*/
+body    {
+    background: $g;
+}
+
 .navbar-brand   {
     border-bottom: 2px solid transparent;
     transition: 0.3s;
@@ -97,6 +101,7 @@
         font-size: 70%;
         font-family: $m;
         text-align: center;
+        transition: 0.3s;
         margin-top: 15px;
     }
 

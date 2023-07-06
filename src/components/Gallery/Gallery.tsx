@@ -47,6 +47,22 @@ function Gallery    ()  {
             likes: 78,
             comments: 19
         },
+        
+        {
+            imgUrl: "/src/assets/images/moments/moment-slide-6.jpg",
+            title: "Contágio e emoção",
+            description: "Now shows da #OneBitMusic, ir acompanhado de bons amigos traz a imensa alegria de se compartilhar bons momentos. Nossas experiências atendem às necessidades que você e sua turma possam ter, e garantem a diversão da noite.",
+            likes: 51,
+            comments: 25
+        },
+
+        {
+            imgUrl: "/src/assets/images/moments/moment-slide-7.jpg",
+            title: "Para todos os ritmos",
+            description: "#OneBitMusic traz performances únicas e inesquecíveis para todos os tipos de gêneros e gostos musicais. Nossa tecnologia garante a chance de se experimentar todos os estilos musicais, cada um de modo único e sensacional!",
+            likes: 51,
+            comments: 25
+        },
     ]
 
     const momentSlides = moments.map(   momentImages => 
@@ -67,8 +83,6 @@ function Gallery    ()  {
                     perMove: 2,
                     gap: "1.5%",
                 }}
-
-                style={{cursor: 'pointer'}}
             >
                 {momentSlides}
             </Splide>
