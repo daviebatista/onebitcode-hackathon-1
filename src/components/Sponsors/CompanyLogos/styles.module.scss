@@ -1,0 +1,10 @@
+@import '../../../styles/globals.scss';
+
+.companiesDiv   {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 11%;
+    justify-content: center;
+}

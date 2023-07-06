@@ -3,6 +3,7 @@ import Header from "./components/Header/Header"
 import Hero from "./components/Hero/Hero"
 import Schedule from "./components/Schedule/Schedule"
 import Singers from "./components/Singers/Singers"
+import Sponsors from "./components/Sponsors/Sponsors"
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <About/>
       <Singers/>
       <Schedule/>
+      <Sponsors/>
     </>
   )
 }

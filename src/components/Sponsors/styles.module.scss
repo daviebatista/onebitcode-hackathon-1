@@ -1,0 +1,19 @@
+@import '../../styles/globals.scss';
+
+.section    {
+    align-items: center;
+    background-color: $g;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    @include spacing;
+
+    h1  {
+        @include titles;
+    }
+
+    .button {
+        padding: 0% 3%;
+        @include buttons;
+    }
+}
