@@ -1,0 +1,65 @@
+@import '../../styles/globals.scss';
+
+.footer {
+    align-items: center;
+    background-color: $dark;
+    border-top: 1px solid $i;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    min-height: 1.170719156053%;
+    @include spacing;
+    padding-bottom: 0.5%;
+    padding-top: 0.5%;
+}
+
+
+.onebit {
+    color: $light;
+    font-size: 80%;
+    font-family: $m;
+    font-weight: 100;
+}
+
+.music  {
+    color: $gR;
+    font-size: 80%;
+    font-family: $m;
+    font-weight: 100;
+}
+
+.logoOneBit {
+    width: 18%
+}
+
+
+
+.rightSide {
+    display: flex;
+    flex-direction: row;
+}
+
+.iconsDiv   {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 25%;
+    margin-right: 100px;
+}
+
+.icons  {
+    cursor: pointer;
+    height: 45%;
+    width: 45%;
+
+    transition: 0.3s;
+    &:hover {
+        filter: opacity(0.7);
+    }
+}
+
+.brand  {
+    color: $gG;
+    font-size: 60%;
+    margin-top: 5%;
+}
