@@ -1,3 +1,4 @@
+import aosInit from "../common/AOS/AOS";
 import Button from "../common/Button/Button";
 import styles from "./styles.module.scss";
 
@@ -26,11 +27,15 @@ function Hero()  {
         }, 1000
     )
 
-
-
+    aosInit()
 
     return  (
-                <section className={styles.section} id="hero">
+                <section 
+                    className={styles.section} 
+                    id="hero" 
+                    data-aos="fade-zoom-in"
+                    data-aos-delay="100"
+                >
                     <div className={styles.callingDiv}>
                         <p className={styles.experience}>
                             <strong>A Sua Melhor Experiência</strong> 

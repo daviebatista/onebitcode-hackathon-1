@@ -1,6 +1,10 @@
+import aosInit from "../common/AOS/AOS";
 import styles from "./styles.module.scss";
 
 function Singers()  {
+
+    aosInit()
+
     return  (
                 <section className={styles.section} id="singers">
                     <div className={styles.informations}>
@@ -17,7 +21,11 @@ function Singers()  {
                             <img src="./src/assets/images/resources/arrow.svg" alt="" />
                         </a>
                     </div>
-                    <div className={styles.singerImages}>
+                    <div 
+                        className={styles.singerImages}
+                        data-aos="fade-up"
+                        data-aos-duration="1000"
+                    >
                         <img src="./src/assets/images/artists/artist-image-1.svg" alt="first-singer" />
                         <img src="./src/assets/images/artists/artist-image-2.svg" alt="second-singer" />
                         <img src="./src/assets/images/artists/artist-image-3.svg" alt="third-singer" />

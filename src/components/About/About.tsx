@@ -1,9 +1,17 @@
+import aosInit from "../common/AOS/AOS";
 import styles from "./styles.module.scss";
 
 function About ()  {
+
+    aosInit()
+
     return  (
                 <section className={styles.section}>
-                    <div className={styles.pictures}>
+                    <div 
+                        className={styles.pictures}
+                        data-aos="fade-up"
+                        data-aos-duration="1000"
+                    >
                         <img src="/src/assets/about-us-photography-2.svg" alt="about-us-photography-2" className={styles.image}/>
                         <img src="/src/assets/about-us-photography-1.svg" alt="about-us-photography-1" className={styles.image + " " + styles.over}/>
                     </div>

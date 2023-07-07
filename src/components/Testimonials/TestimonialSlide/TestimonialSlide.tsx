@@ -1,8 +1,16 @@
+import aosInit from "../../common/AOS/AOS";
 import styles from "./styles.module.scss";
 
 function TestimonialSlide   ({informations}: any)  {
+    aosInit()
+
     return  (
-                <div className={styles.testimonialSlide}>
+                <div 
+                    className={styles.testimonialSlide}
+                    data-aos="fade-up"
+                    data-aos-easing="linear"
+                    data-aos-duration="1000"
+                >
                     <div className={styles.testimonialArea}>
                         <img src="./src/assets/images/resources/quotes-left.svg" alt="quotesUp" className={styles.quotesUp}/>
                         <p>
