@@ -16,15 +16,11 @@ function Hero()  {
             let minutes = Math.floor((range % (1000 * 60 * 60)) / (1000 * 60))
             let seconds = Math.floor((range % (1000 * 60)) / 1000)
 
-            if  (countdown !== null)    {
                 countdownStamp.innerHTML = 
                     days + "d " 
                     + hours + "h "
                     + minutes + "m " 
                     + seconds + "s "
-            }   else    {
-                console.log(`Something went wrong! Check your React Sheet for more info!`)
-            }
 
         }
 
