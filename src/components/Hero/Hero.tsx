@@ -50,7 +50,7 @@ function Hero()  {
                                 width="15%"
                             />
                             <a className={styles.watch} href="">
-                                <img src="../src/assets/images/resources/Play.svg" alt="" />
+                                <img src="/src/assets/images/resources/Play.svg" alt="" />
                                 <p>Assistir video</p>
                             </a>
                         </div>

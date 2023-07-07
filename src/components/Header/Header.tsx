@@ -6,7 +6,7 @@ function Header ()  {
             <a className="navbar-brand" href="#hero">
                 <span className={styles.onebit}>onebit</span>
                 <span className={styles.music}>music</span>
-                <img src="../../../src/assets/images/resources/onebit-logo.svg" alt="" className={styles.logoOneBit + " px-1"}/>
+                <img src="/src/assets/images/resources/onebit-logo.svg" alt="" className={styles.logoOneBit + " px-1"}/>
             </a>
             <button id="nav-button" className="position-relative navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon "></span>
