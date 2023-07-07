@@ -21,10 +21,12 @@ function Hero()  {
                     + hours + "h "
                     + minutes + "m " 
                     + seconds + "s "
-
         }
-
     )
+
+    if  (countdown === null)    {
+        return
+    }
 
 
     return  (
