@@ -38,7 +38,7 @@ function Testimonials()  {
         )
 
     return  (
-                <section className={styles.section}>
+                <section className={styles.section} id="testimonials">
                     <h1>Relatos</h1>
                     <Swiper
                     spaceBetween={50}

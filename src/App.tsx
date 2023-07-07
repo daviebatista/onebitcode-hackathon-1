@@ -1,4 +1,5 @@
 import About from "./components/About/About"
+import ContactUs from "./components/ContactUs/ContactUs"
 import Footer from "./components/Footer/Footer"
 import Gallery from "./components/Gallery/Gallery"
 import Header from "./components/Header/Header"
@@ -21,6 +22,7 @@ function App() {
       <Sponsors/>
       <Testimonials/>
       <Gallery/>
+      <ContactUs/>
       <Footer/>
     </>
   )

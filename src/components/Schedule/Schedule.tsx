@@ -4,7 +4,7 @@ import styles from "./styles.module.scss";
 
 function Schedule()  {
     return  (
-                <section className={styles.section}>
+                <section className={styles.section} id="schedule">
                     <h1>Nossa programação</h1>
                     <div className={styles.daysDiv}>
                         <div className={styles.days + " currentDay"}>

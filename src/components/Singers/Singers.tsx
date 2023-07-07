@@ -2,7 +2,7 @@ import styles from "./styles.module.scss";
 
 function Singers()  {
     return  (
-                <section className={styles.section}>
+                <section className={styles.section} id="singers">
                     <div className={styles.informations}>
                         <h1>Artistas</h1>
                         <p>

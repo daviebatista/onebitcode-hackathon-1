@@ -17,16 +17,16 @@ function Header ()  {
                         <a href="#hero" className="nav-link">Inicio</a>
                     </li>
                     <li className="nav-item effect">
-                        <a href="" className="nav-link">Artistas</a>
+                        <a href="#singers" className="nav-link">Artistas</a>
                     </li>
                     <li className="nav-item effect">
-                        <a href="" className="nav-link">Programação</a>
+                        <a href="#schedule" className="nav-link">Programação</a>
                     </li>
                     <li className="nav-item effect">
-                        <a href="" className="nav-link">Contato</a>
+                        <a href="#contact" className="nav-link">Contato</a>
                     </li>
                     <li className="nav-item" id={styles.buyTicket}>
-                        <a href="" className="nav-link" >Comprar ingressos</a>
+                        <a href="#buyTickets" className="nav-link" >Comprar ingressos</a>
                     </li>
                 </ul>
             </div>
