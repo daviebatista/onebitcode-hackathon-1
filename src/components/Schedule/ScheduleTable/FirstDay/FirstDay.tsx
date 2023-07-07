@@ -19,6 +19,10 @@ function FirstDay  ()   {
                                 </div>
                             </span>
                         </div>
+                        <div className={styles.verifyHidden}>
+                            <p>Prévia</p>
+                            <img src="./src/assets/images/resources/Play.svg" alt="" />
+                        </div>
                     </div>
                     <div className={styles.verify}>
                         <p>Prévia</p>
@@ -65,6 +69,10 @@ function FirstDay  ()   {
                                 </div>
                             </span>
                         </div>
+                        <div className={styles.verifyHidden}>
+                            <p className={styles.ongoingShow}>AO VIVO</p>
+                            <img src="./src/assets/images/resources/camera.svg" alt="" />
+                        </div>
                     </div>
                     <div className={styles.verify}>
                         <p className={styles.ongoingShow}>AO VIVO</p>
@@ -98,6 +106,10 @@ function FirstDay  ()   {
                                     <strong>2F24</strong>
                                 </div>
                             </span>
+                        </div>
+                        <div className={styles.verifyHidden}>
+                            <p>Em breve</p>
+                            <img src="./src/assets/images/resources/clock.svg" alt="" />
                         </div>
                     </div>
                     <div className={styles.verify}>
