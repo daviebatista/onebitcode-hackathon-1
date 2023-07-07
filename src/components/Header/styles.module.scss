@@ -5,6 +5,7 @@
     background: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.6166841736694677) 48%, rgba(0,0,0,1) 100%);
     padding: 3% 19.53125% 3% 19.6875%;
     height: 12.448132780083%;
+    width: 100%;
 }
 
 .onebit {
@@ -29,6 +30,7 @@
     border-radius: 6px;
     color: $dark;
     padding: 0px 24px;
+    text-align: center;
 
     a   {
         color: $dark;
@@ -44,5 +46,35 @@
         a   {
             color: $light;
         }
+    }
+}
+
+@media  (max-width: 1135px) {
+    #buyTicket  {
+        padding: 2px;
+
+        a   {
+            font-size: 40%;
+        }
+    }
+}
+
+@media  (max-width: 991px)  {
+    .navigation {
+        background: linear-gradient(0deg, rgba(0,0,0,0.8631827731092436) 0%, rgba(0,0,0,1) 100%);
+        padding: 2% 19.53125% 6% 19.6875%;
+    }
+
+    #buyTicket  {
+        a   {
+            font-size: 70%;
+        }
+    }
+}
+
+@media  (max-width: 768px)  {
+    .navigation {
+    padding: 2% 9.53125% 6% 9.6875%;
+
     }
 }

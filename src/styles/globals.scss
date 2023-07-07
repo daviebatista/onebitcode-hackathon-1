@@ -10,6 +10,7 @@
 
 body    {
     background: $g;
+    width: 100%;
 }
 
 .navbar-brand   {
@@ -40,6 +41,14 @@ body    {
 
 .navbar-nav {
     gap: 20px;
+}
+
+@media  (max-width: 991px)  {
+    .navbar-nav {
+        background: linear-gradient(0deg, rgba(0,0,0,0.8631827731092436) 0%, rgba(0,0,0,1) 100%);
+        border-radius: 15px;
+        padding: 3% 10% 6% 10%;
+    }
 }
 
 /*--------------------------------------------------------------<STYLES FOR THE ABOUT SECTION>--------------------------------------------------------------------------------------------------------------------------------*/
@@ -177,7 +186,11 @@ body    {
 
 @mixin spacing  {
     padding: 5.34% 19.53125%;
+    @media  (max-width: 768px)  {
+        padding: 5.34% 9.53125%;
+    }
 }
+
 
 @mixin titles   {
     color: $light;

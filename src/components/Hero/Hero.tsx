@@ -50,7 +50,6 @@ function Hero()  {
                                 color="#F64348" 
                                 textColor="#FEFEFE"
                                 height="50%"
-                                width="15%"
                             />
                             <a className={styles.watch} href="">
                                 <img src="/src/assets/images/resources/Play.svg" alt="" />
@@ -59,7 +58,7 @@ function Hero()  {
                         </div>
                     </div>
                     <div className={styles.countdown}>
-                        <h1>
+                        <h1 className={styles.countdownTitle}>
                             <strong id="countdownStamp">
                             </strong>
                         </h1>

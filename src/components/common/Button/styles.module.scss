@@ -7,9 +7,30 @@
     font-size: 12px;
     text-align: center;
     text-decoration: none;
+    width: 10%;
 
     p   {
         align-self: center;
-        margin-top: 12px;
+        margin-top: 10%;
+    }
+}
+
+@media  (max-width: 1075px) {
+    .button {
+        width: 30%;
+
+        p   {
+            font-size: 75%;
+            margin-top: 8%;
+        }
+    }
+}
+
+@media  (max-width: 768px)  {
+    .button {
+        p   {
+            font-size: 100%;
+            margin-top: 12%;
+        }
     }
 }

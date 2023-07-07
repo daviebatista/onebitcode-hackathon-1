@@ -8,7 +8,8 @@
     display: flex;
     flex-direction: column;
     height: 120vh;
-    padding: 9.34% 24.73% 32.46% 24.73%;
+    padding: 9.34% 14.3%;
+    width: 100%;
 }
 
 .callingDiv   {
@@ -31,12 +32,15 @@
 }
 
 .callingText    {
+    align-self: center;
     color: $light;
     font-size: 35%;
     font-family: $r;
     font-weight: 400;
+    justify-self: center;
     line-height: 30px;
-    width: 106%;
+    padding: 0px 2%;
+    width: 75%;
 }
 
 .options    {
@@ -82,17 +86,108 @@
     height: 18.257261410788%;
     margin-top: 3%;
     text-align: center;
+}
 
-    h1  {
-        color: transparent;
-        font-family: $m;
-        font-size: 600%;
-        font-weight: 900;
-        opacity: 0.5;
-        text-transform: lowercase;
-        text-shadow: solid 1px $gR;
-        transition: 0.1s;
-        width: 140%;
-        -webkit-text-stroke: 1px $light;
+.countdownTitle  {
+    color: transparent;
+    font-family: $m;
+    font-size: 600%;
+    font-weight: 900;
+    opacity: 0.5;
+    text-transform: lowercase;
+    text-shadow: solid 1px $gR;
+    transition: 0.1s;
+    width: 140%;
+    -webkit-text-stroke: 1px $light;
+}
+
+@media  (max-width: 1175px) {
+    .section {
+        height: 150vh;
+        padding-top: 20%;
+    }
+
+    .options    {
+        button  {
+            width: 30%;
+        }
+    }
+
+    .countdown  {
+        h1  {
+            font-size: 400%;
+        }
+    }
+}
+
+@media  (max-width: 768px)  {
+    .section    {
+        height: 150vh;
+        padding: 20% 0%;
+    }
+
+    .options    {
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        justify-self: center;
+        margin: 0px;
+        margin-top: 20px;
+        padding: 0px;
+    }
+
+    .experience {
+        align-self: center;
+        align-items: center;
+        justify-content: center;
+        justify-self: center;
+
+        strong  {
+            align-self: center;
+            font-size: 60%;
+        }
+
+        span    {
+            align-self: center;
+            font-size: 60%;
+        }
+    }
+
+    .callingText    {
+        align-self: center;
+        font-size: 30%;
+    }
+
+    .countdownTitle {
+        width: 100%;
+    }
+}
+
+@media  (max-width: 535px)  {
+    .section    {
+        height: 165vh;
+    }
+
+    .countdownTitle {
+        strong  {
+            font-size: 70%;
+        }
+    }
+}
+
+@media  (max-width: 375px)  {
+    .section    {
+        padding: 25% 0%;
+        height: 160vh;
+    }
+
+    .callingText    {
+        font-size: 25%;
+    }
+
+    .countdownTitle {
+        strong  {
+            font-size: 60%;
+        }
     }
 }
