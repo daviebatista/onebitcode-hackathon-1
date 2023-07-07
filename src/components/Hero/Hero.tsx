@@ -3,11 +3,10 @@ import styles from "./styles.module.scss";
 
 function Hero()  {
 
-    const countdownStamp: any = document.getElementById('countdownStamp')
     const expirationDate = new Date("Jul 15, 2023 20:00:00").getTime()
-
+    //@ts-ignore
     let countdown = setInterval (
-        function countdownTimer ()  {
+        function countdownTimer (){
             let currentTime = new Date().getTime()
             let range = expirationDate - currentTime
 
@@ -16,17 +15,18 @@ function Hero()  {
             let minutes = Math.floor((range % (1000 * 60 * 60)) / (1000 * 60))
             let seconds = Math.floor((range % (1000 * 60)) / 1000)
 
-                countdownStamp.innerHTML = 
+                let timeValue   = 
                     days + "d " 
                     + hours + "h "
                     + minutes + "m " 
                     + seconds + "s "
-        }
+                    
+            //@ts-ignore
+            document.getElementById('countdownStamp').innerHTML = timeValue
+        }, 1000
     )
 
-    if  (countdown === null)    {
-        return
-    }
+
 
 
     return  (
