@@ -69,3 +69,66 @@
     }
 
 }
+
+@media  (max-width: 768px)  {
+    .section    {
+        min-height: 60vh;
+    }
+
+    .informations   {
+        width: 60%;
+    }
+
+    .singerImages   {
+        width: 40%;
+    }
+
+    .button {
+        margin-top: 0;
+        width: 90%;
+    }
+}
+
+@media  (max-width: 582px)  {
+    .informations   {
+        h1  {
+            font-size: 100%;
+        }
+
+        p   {
+            font-size: 50%;
+        }
+    }
+
+    
+    .singerImages   {
+        margin-top: 5%;
+        img {
+            width: 40%;
+        }
+    }
+}
+
+@media  (max-width: 425px)  {
+    .singerImages   {
+        display: none;
+    }
+
+    .informations   {
+        width: 100%;
+    }
+
+    .button {
+        height: 35px;
+        width: 45%;
+
+        p   {
+            font-size: 40%;
+            width: 120%;
+        }
+
+        img {
+            width: 20%;
+        }
+    }
+}

@@ -63,6 +63,8 @@
 @media  (max-width: 768px)  {
     .section    {
         gap: 35px;
+        min-height: 60vh;
+
     }
 
     .pictures   {
@@ -89,7 +91,7 @@
     }
 
     .button {
-        width: 50%;
+        width: 35%;
     }
 
     .image {
@@ -115,7 +117,12 @@
 }
 
 @media  (max-width: 425px)  {
+    .pictures   {
+        display: none;
+    }
+
     .description    {
+        gap: 20px;
         h1  {
             margin-bottom: 0px;
         }
