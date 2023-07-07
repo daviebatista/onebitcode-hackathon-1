@@ -2,6 +2,35 @@ import Button from "../common/Button/Button";
 import styles from "./styles.module.scss";
 
 function Hero()  {
+
+    const countdownStamp: any = document.getElementById('countdownStamp')
+    const expirationDate = new Date("Jul 15, 2023 20:00:00").getTime()
+
+    let countdown = setInterval (
+        function countdownTimer ()  {
+            let currentTime = new Date().getTime()
+            let range = expirationDate - currentTime
+
+            let days = Math.floor(range / (1000 * 60 * 60 * 24))
+            let hours = Math.floor((range % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60))
+            let minutes = Math.floor((range % (1000 * 60 * 60)) / (1000 * 60))
+            let seconds = Math.floor((range % (1000 * 60)) / 1000)
+
+            if  (countdown !== null)    {
+                countdownStamp.innerHTML = 
+                    days + "d " 
+                    + hours + "h "
+                    + minutes + "m " 
+                    + seconds + "s "
+            }   else    {
+                console.log(`Something went wrong! Check your React Sheet for more info!`)
+            }
+
+        }
+
+    )
+
+
     return  (
                 <section className={styles.section} id="hero">
                     <div className={styles.callingDiv}>
@@ -29,7 +58,6 @@ function Hero()  {
                     <div className={styles.countdown}>
                         <h1>
                             <strong id="countdownStamp">
-                                5d 2h 26m 12s
                             </strong>
                         </h1>
                     </div>

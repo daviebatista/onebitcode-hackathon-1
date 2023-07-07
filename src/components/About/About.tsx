@@ -4,7 +4,8 @@ function About ()  {
     return  (
                 <section className={styles.section}>
                     <div className={styles.pictures}>
-                        <img src="./src/assets/about-us-photography-1.svg" alt="about-us-photography-1" className={styles.image + " over"}/>
+                        <img src="./src/assets/about-us-photography-2.svg" alt="about-us-photography-2" className={styles.image}/>
+                        <img src="./src/assets/about-us-photography-1.svg" alt="about-us-photography-1" className={styles.image + " " + styles.over}/>
                     </div>
                     <div className={styles.description}>
                         <h1>Sobre a gente</h1>

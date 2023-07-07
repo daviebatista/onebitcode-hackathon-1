@@ -91,6 +91,7 @@
         opacity: 0.5;
         text-transform: lowercase;
         text-shadow: solid 1px $gR;
+        transition: 0.1s;
         width: 140%;
         -webkit-text-stroke: 1px $light;
     }
