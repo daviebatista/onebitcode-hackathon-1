@@ -59,3 +59,84 @@
         }
     }
 }
+
+@media  (max-width: 768px)  {
+    .section    {
+        gap: 35px;
+    }
+
+    .pictures   {
+        width: 30%;
+    }
+
+    .description    {
+        width: 70%;
+
+        p   {
+            font-size: 80%;
+        }
+    }
+
+    .button {
+        margin-top: 0px;
+    }
+}
+
+@media  (max-width: 582px)  {
+    .pictures   {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .button {
+        width: 50%;
+    }
+
+    .image {
+        display: grid;
+        width: 120%;
+    }
+    
+    .over   {
+        margin: 0px;
+    }
+
+    .description    {
+        width: 100%;
+
+        h1  {
+            font-size: 100%;
+        }
+
+        p   {
+            font-size: 60%;
+        }
+    }
+}
+
+@media  (max-width: 425px)  {
+    .description    {
+        h1  {
+            margin-bottom: 0px;
+        }
+    }
+
+    .button {
+        padding: -30px 20px;
+        height: 30px;
+        margin-top: -10px;
+    }
+}
+
+@media  (max-width: 375px)  {
+    .description    {
+        gap: 5px;
+        p   {
+            font-size: 55%;
+        }
+    }
+
+    .button {
+        height: 25px;
+    }
+}
