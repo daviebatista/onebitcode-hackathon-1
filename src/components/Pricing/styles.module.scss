@@ -1,0 +1,17 @@
+@import '../../styles/globals.scss';
+
+.title  {
+    margin-bottom: -2%;
+    text-align: center;
+    @include titles;
+}
+
+.section    {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 3%;
+    justify-content: center;
+    @include spacing;
+
+}

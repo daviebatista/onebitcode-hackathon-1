@@ -1,0 +1,49 @@
+@import '../../../styles/globals.scss';
+
+.ticket {
+    align-items: center;
+    background: $i;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1% 0%;
+    text-align: center;
+    width: 40%;
+
+    h6  {
+        font-family: $m;
+        font-size: 120%;
+        font-weight: 700;
+        margin-top: 5%;
+    }
+
+    h1  {
+        font-family: $m;
+        font-weight: 700;
+        margin-bottom: 5%;
+    }
+
+    p   {
+        font-family: $r;
+        font-size: 70%;
+    }
+
+    a   {
+        align-items: center;
+        border-radius: 5px;
+        text-align: center;
+        justify-content: center;
+        margin-bottom: 5%;
+        text-decoration: none;
+        transition: 0.3s;
+        width: 45%;
+
+        p   {
+            font-family: $r;
+            font-weight: 700;
+            margin-bottom: 10%;
+            margin-top: 10%;
+        }
+    }
+}

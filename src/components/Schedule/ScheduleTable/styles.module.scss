@@ -5,11 +5,13 @@
     border-radius: 15px;
     display: flex;
     flex-direction: column;
+    margin-top: 4%;
 }
 
 .scheduleHeader {
     align-items: start;
     background-color: $dG;
+    border-radius: 15px;
     display: flex;
     flex-direction: row;
     font-family: $r;

@@ -4,6 +4,7 @@ import Footer from "./components/Footer/Footer"
 import Gallery from "./components/Gallery/Gallery"
 import Header from "./components/Header/Header"
 import Hero from "./components/Hero/Hero"
+import Pricing from "./components/Pricing/Pricing"
 import Schedule from "./components/Schedule/Schedule"
 import Singers from "./components/Singers/Singers"
 import Sponsors from "./components/Sponsors/Sponsors"
@@ -19,6 +20,7 @@ function App() {
       <About/>
       <Singers/>
       <Schedule/>
+      <Pricing/>
       <Sponsors/>
       <Testimonials/>
       <Gallery/>
