@@ -1,5 +1,4 @@
 import aosInit from "../common/AOS/AOS";
-import Button from "../common/Button/Button";
 import styles from "./styles.module.scss";
 
 function Hero()  {
@@ -45,12 +44,9 @@ function Hero()  {
                             Nossos shows artísticos são projetados para encantar, inspirar e transportar você para um mundo de criatividade e expressão.
                         </p>
                         <div className={styles.options}>
-                            <Button 
-                                content="Começar" 
-                                color="#F64348" 
-                                textColor="#FEFEFE"
-                                height="50%"
-                            />
+                            <a href="#singers" className={styles.button}>
+                                Começar
+                            </a>
                             <a className={styles.watch} href="">
                                 <img src="/src/assets/images/resources/Play.svg" alt="" />
                                 <p>Assistir video</p>

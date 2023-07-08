@@ -27,6 +27,23 @@
     font-family: $m;
 }
 
+.button {
+    background-color: $gR;
+    border-radius: 6px;
+    color: $light;
+    font-size: 70%;
+    margin-right: -20px;
+    padding: 10px;
+    text-decoration: none;
+    transition: 0.3s;
+    width: 11%;
+
+    &:hover {
+        background-color: $i;
+        color: $dark;
+    }
+}
+
 .redText    {
     color: $gR;
 }
@@ -120,10 +137,20 @@
     }
 }
 
+@media  (max-width: 899px)  {
+    .section    {
+        height: 170vh;
+    }
+}
+
 @media  (max-width: 768px)  {
     .section    {
         height: 150vh;
         padding: 20% 0%;
+    }
+
+    .button {
+        width: 144px;
     }
 
     .options    {
