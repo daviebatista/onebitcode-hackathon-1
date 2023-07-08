@@ -14,7 +14,7 @@
     color: $i;
     display: flex;
     padding: 0.75% 2%;
-    width: 40%;
+    width: 50%;
 
     img {
         width: 22px;
@@ -58,4 +58,22 @@
 
 .avatar {
     width: 70%;
+}
+
+@media  (max-width: 768px)  {
+    .avatar {
+        width: 60px;
+    }
+
+    .testimonialArea    {
+        width: 80%;
+    }
+}
+
+@media  (max-width: 425px)  {
+    .testimonialArea    {
+        p   {
+            font-size: 60%;
+        }
+    }
 }

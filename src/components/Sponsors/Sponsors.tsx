@@ -6,7 +6,7 @@ function Sponsors   ()  {
 
     return  (
                 <section className={styles.section}>
-                    <h1>Nossos investidores</h1>
+                    <h1 className={styles.investors}>Nossos investidores</h1>
                     <CompanyLogos/>
                     <a href="" className={styles.button}>
                         <p>

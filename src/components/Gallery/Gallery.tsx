@@ -82,7 +82,34 @@ function Gallery    ()  {
                     perPage: 5,
                     perMove: 2,
                     gap: "1.5%",
+
+                    breakpoints: {
+                        1200:   {
+                            perPage: 4,
+                            gap: '10px'
+                        },
+
+                        768:    {
+                            arrows: false,
+                            gap: "50px",
+                            pagination: false,
+                            perPage: 3
+                        },
+                        
+                        583:    {
+                            gap: "100px",
+                            perPage: 2
+                        },
+                        
+                        425:    {
+                            gap: "0px",
+                            perPage: 1,
+                            indicator: false
+                        }
+                    }
                 }}
+
+
             >
                 {momentSlides}
             </Splide>

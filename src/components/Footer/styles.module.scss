@@ -63,3 +63,30 @@
     font-size: 60%;
     margin-top: 5%;
 }
+
+@media  (max-width: 768px)  {
+    .icons  {
+        height: 25px;
+        width: 25px;
+    }
+}
+
+@media  (max-width: 530px)  {
+    .footer {
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .rightSide  {
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+    }
+    
+    .iconsDiv   {
+        align-items: center;
+        margin-right: 65%;
+    }
+}

@@ -53,3 +53,24 @@
     font-family: $r;
     font-size: 70%;
 }
+
+@media  (max-width: 425px)  {
+    .slide  {
+        align-items: center;
+        margin: 0 auto;
+        padding: 0px 20px;
+        text-align: center;
+        width: 90%;
+
+        img {
+            width: 80%;
+        }
+    }
+
+    .description    {
+        font-size: 60%;
+        width: 80%;
+    }
+
+
+}

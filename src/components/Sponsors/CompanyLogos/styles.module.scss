@@ -8,3 +8,9 @@
     gap: 11%;
     justify-content: center;
 }
+@media  (max-width: 545px)  {
+    .companiesDiv    {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+}

@@ -45,7 +45,7 @@ function Pricing()  {
                     <h1 className={styles.title}>Escolha o tipo de ingresso</h1>
                     <section className={styles.section}>
                                 {ticketSlides}
-                        </section>
+                    </section>
                 </>
     )
 }

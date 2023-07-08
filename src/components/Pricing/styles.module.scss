@@ -15,3 +15,14 @@
     @include spacing;
 
 }
+
+@media  (max-width: 425px)  {
+    .section    {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .title  {
+        font-size: 100%;
+    }
+}

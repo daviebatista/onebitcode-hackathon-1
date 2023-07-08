@@ -9,7 +9,7 @@ function PriceSlides    ({information}: any)  {
                     <h1>
                         R${information.pricing}
                     </h1>
-                    <p >
+                    <p>
                         {information.featureOne}
                     </p>
                     <p>

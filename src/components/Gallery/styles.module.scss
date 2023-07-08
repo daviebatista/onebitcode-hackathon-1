@@ -4,11 +4,22 @@
     background: rgb(92,92,92);
     background: linear-gradient(0deg, rgba(92,92,92,1) 36%, rgba(246,67,72,0.0760679271708683) 100%);
 
-    min-height: 100vh;
+    height: 120vh;
 
     h1  {
         margin-bottom: -2%;
         @include titles;
         @include spacing;
     }
+}
+
+@media  (max-width: 425px)  {
+    .section    {
+        height: 105vh;
+        h1  {
+            font-size: 100%;
+            margin-bottom: 20px;
+        }
+    }
+
 }

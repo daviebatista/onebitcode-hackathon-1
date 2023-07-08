@@ -3,7 +3,7 @@ import styles from './styles.module.scss'
 function GallerySlide   ({moment}: any)  {
     return  (
                 <div className={styles.slide}>
-                    <img src={moment.imgUrl} alt="" />
+                    <img src={moment.imgUrl} alt={moment.title} />
                     <div className={styles.informations}>
                         <span className={styles.features}>
                             <img src="./src/assets/images/resources/like.svg" alt="likeIcon" className={styles.icons} />
