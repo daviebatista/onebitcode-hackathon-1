@@ -1,0 +1,32 @@
+@import '../../../../styles/globals.scss';
+
+.section    {
+    align-items: center;
+    background-color: $dark;
+    border: 1px solid rgba(255, 255, 255, 0.256);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    padding: 10% 0px;
+    text-align: center;
+
+    img {
+        width: 120px;
+    }
+}
+
+@media  (max-width: 768px)  {
+    .section    {
+        font-size: 80%;
+        img {
+            width: 80px;
+        }
+    }
+}
+
+@media  (max-width: 425px)  {
+    .section    {
+        font-size: 70%;
+    }
+}

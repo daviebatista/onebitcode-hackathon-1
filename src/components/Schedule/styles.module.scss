@@ -8,6 +8,7 @@
     gap: 10%;
     justify-content: flex-start;
     min-height: 100vh;
+    transition: 0.3s;
     @include spacing;
 
     h1  {
@@ -24,6 +25,7 @@
 
 .days   {
     border-bottom: 4px solid $dark;
+    cursor: pointer;
     opacity: 0.5;
     width: 55.223880597015%;
 
