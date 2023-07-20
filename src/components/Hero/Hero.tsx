@@ -2,7 +2,7 @@ import aosInit from "../common/AOS/AOS";
 import styles from "./styles.module.scss";
 
 function Hero()  {
-
+    /* 
     const expirationDate = new Date("Jul 15, 2023 20:00:00").getTime()
     //@ts-ignore
     let countdown = setInterval (
@@ -25,7 +25,7 @@ function Hero()  {
             document.getElementById('countdownStamp').innerHTML = timeValue
         }, 1000
     )
-
+    */
     aosInit()
 
     return  (
@@ -56,6 +56,7 @@ function Hero()  {
                     <div className={styles.countdown}>
                         <h1 className={styles.countdownTitle}>
                             <strong id="countdownStamp">
+                                00d 00h 00m 00s
                             </strong>
                         </h1>
                     </div>
